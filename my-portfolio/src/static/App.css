@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+}
+.app {
+	background-image: url('../img/app__background.png');
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
+.app__image {
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 
+		0 6px 20px 0 rgba(0,0,0,0.19);	
+}

@@ -1,0 +1,98 @@
+.section2__appHeader {
+	font-family: 'Recursive', sans-serif;
+	font-size: 28px;
+	color: #F1FDD8;
+	text-align: center;
+	transition: 2s;
+	text-shadow:5px 5px 10px black;
+	padding: 30px;
+} 
+@media only screen and (min-width: 869px) {
+	.section2__render {
+		color: #F1FDD8;
+		margin-bottom: 5%;
+		padding: 20px;
+		justify-content: center;
+		transition: 2s;
+		margin-left: 3%;
+		display: flex;
+	}
+	.section2__card {
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 
+			0 6px 20px 0 rgba(0,0,0,0.19);	
+			transition: .5s;
+		background-image: url('../img/app__background2.png');
+		background-attachment: fixed;
+		background-repeat: repeat;
+		margin-bottom: 2%;
+		margin-left: 10%;
+		width: 85%;
+	}
+	.section2__smallCard {
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 
+			0 6px 20px 0 rgba(0,0,0,0.19);	
+			transition: .5s;
+		background-image: url('../img/app__background2.png');
+		background-attachment: fixed;
+		background-repeat: repeat;
+		margin-bottom: 2%;
+		height: 100%;
+		margin-right: 10%;
+		margin-top: 4%;
+	}
+}
+@media only screen and (max-width: 868px) {
+	.section2__render {
+		color: #F1FDD8;
+		margin-bottom: 5%;
+		padding: 20px;
+		justify-content: center;
+		transition: 2s;
+		margin-left: 5%;
+		display: flex;
+		flex-direction: column;
+	}
+	.section2__card {
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 
+			0 6px 20px 0 rgba(0,0,0,0.19);	
+			transition: .5s;
+		background-image: url('../img/app__background2.png');
+		background-attachment: fixed;
+		background-repeat: repeat;
+		margin-bottom: 2%;
+		width: 85%;
+	}
+	.section2__smallCard {
+		padding: 3%;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 
+			0 6px 20px 0 rgba(0,0,0,0.19);	
+			transition: .5s;
+		background-image: url('../img/app__background2.png');
+		background-attachment: fixed;
+		background-repeat: repeat;
+		height: 100%;
+		width: 83%;
+	}
+	.social__list {
+		margin-left: 10%;
+	}
+}
+.section2__card:hover, .section2__card:focus{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 
+		0 6px 20px 0 rgba(0,0,0,0.20);
+	transition: .9s;
+}
+.section2__header {
+	padding: 5px;
+	margin-bottom: 10px;
+	font-family: 'Recursive', sans-serif;
+	font-size: 22px;
+}
+.section2__body { font-size: 18px; }

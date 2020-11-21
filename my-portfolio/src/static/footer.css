@@ -1,0 +1,123 @@
+.footer {
+  color: white;
+	background-image: url('../img/app__background.png');
+	background-attachment: fixed;
+	background-repeat: repeat-x; 
+	box-shadow: 0 4px 8px 0 rgba(2,2,2,2), 
+		0 6px 20px 0 rgba(0,0,0,0.19);	
+}
+.footer__bottom { 
+	padding: 10px;
+	background-image: url('../img/app__background.png');
+	background-attachment: fixed;
+	background-repeat: repeat-x; 
+	box-shadow: 0 4px 8px 0 rgba(2,2,2,2), 
+		0 6px 20px 0 rgba(0,0,0,0.19);	
+	text-align: center;
+}
+.footer__link {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	margin: 10px;
+	outline: none;
+	display: flex;
+	align-items: center;	
+}
+.footer_header {
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Recursive', sans-serif;
+	padding: 2%;
+	text-shadow:5px 5px 10px black;
+}
+.social_header {
+	font-size: 24px;
+}
+.footer__socialContainer {
+	list-style-type: none;
+	width: 20%;
+}
+@media only screen and (max-width: 767px) {
+	.footer__top { 
+		padding: 20px;
+		background-repeat: repeat-x; 	
+			transition: .5s;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+	.social_card {
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 
+			0 6px 20px 0 rgba(0,0,0,0.19);
+			transition: .5s;
+		background-image: url('../img/app__background2.png');
+		background-attachment: fixed;
+		background-repeat: repeat;
+		height: 100%;
+		width: 50%;
+		margin-left: 20%;
+		margin-bottom: 10px;
+	}
+	.contact_base {
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 
+			0 6px 20px 0 rgba(0,0,0,0.19);
+			transition: .5s;
+		background-image: url('../img/app__background2.png');
+		background-attachment: fixed;
+		background-repeat: repeat;
+		width: auto;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.footer__top { 
+		padding: 40px;
+		background-repeat: repeat-x; 	
+			transition: .5s;
+		display: flex;
+		flex-direction: row;
+	}
+	.social_card {
+		margin-top: 5%;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 
+			0 6px 20px 0 rgba(0,0,0,0.19);
+			transition: .5s;
+		background-image: url('../img/app__background2.png');
+		background-attachment: fixed;
+		background-repeat: repeat;
+		height: 100%;
+		width: auto;
+		margin-left: 17%;
+		margin-right: 5%; 
+	}
+	.contact_base {
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 
+			0 6px 20px 0 rgba(0,0,0,0.19);
+			transition: .5s;
+		background-image: url('../img/app__background2.png');
+		background-attachment: fixed;
+		background-repeat: repeat;
+		width: 40%;
+	}
+}
+.social_card:hover, .social_card:focus {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 
+		0 6px 20px 0 rgba(0,0,0,0.20);
+	transition: .9s;
+}
+.contact_base:hover, .contact_base:focus {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 
+		0 6px 20px 0 rgba(0,0,0,0.20);
+	transition: .9s;
+}
+ul {
+	margin-left: -10%;
+}

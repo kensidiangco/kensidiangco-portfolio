@@ -1,0 +1,131 @@
+.gallery {
+	padding-bottom: 5%;
+	background-image: url('../img/app__background2.png');
+	background-attachment: fixed;
+	background-repeat: repeat;	
+	color: #F1FDD8;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 
+		6px 0 5px 0 rgba(0,0,0,0.19);
+	padding-left: 5%;
+	padding-right: 5%;
+}
+@media only screen and (min-width: 1024px) {
+	.gallery__content1, .gallery__content2 {
+		display: flex;
+		flex-direction: row;
+	}
+	.gallery__card {
+		width: 100%;
+	}
+}
+.gallery__card {
+	padding: 10px;
+	margin: 2%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 
+		0 6px 20px 0 rgba(0,0,0,0.19);
+		transition: .5s;
+	background-image: url('../img/app__background.png');
+	background-attachment: fixed;
+	background-repeat: repeat;
+	height: 100%;
+}
+.gallery__header {
+	font-family: 'Recursive', sans-serif;
+	font-size: 28px;
+	color: #F1FDD8;
+	text-align: center;
+	transition: 2s;
+	text-shadow:5px 5px 10px black;
+	padding: 30px;
+}
+.card__body {
+	padding: 1%;
+}
+.project__image {
+	object-fit: contain;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 
+		0 6px 20px 0 rgba(0,0,0,0.20);
+	cursor: pointer;
+	-webkit-transition: width .3s ease-out;
+	-moz-transition: width .3s ease-out;
+	-o-transition: width .3s ease-out;
+	transition: width .3s ease-out;
+}
+.project__image:hover, .project__image:focus {
+	width: 97%;
+}
+.gallery__card:hover, .gallery__card:focus {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 
+		0 6px 20px 0 rgba(0,0,0,0.20);
+	transition: .9s;
+}
+.card__header {
+	color: #F1FDD8;
+	padding: 10px;
+}
+.gallery__comment {
+	text-align: left;
+	font-size: 18px;
+	padding: 10px;
+}
+a {
+	color: white;
+}
+.modal__image {
+	object-fit: contain;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 
+		0 6px 20px 0 rgba(0,0,0,0.20);
+}
+.img__card1, .img__card2, .img__card3, .img__card4, .body__card1, .body__card2, .body__card3, .body__card4 {
+	padding: 1px;
+	padding-top: 0;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 
+		0 6px 20px 0 rgba(0,0,0,0.20);
+	transition: .5s;
+}
+.img__card1, .body__card1 {
+	background-color: #3CB371;
+}
+.img__card2, .body__card2 {
+	background-color: #2147B5;
+}
+.img__card3, .body__card3, .img__card4, .body__card4 {
+	background-color: gray;
+}
+
+.body__card1:hover, .body__card2:hover, .body__card3:hover, .body__card4:hover,
+.body__card1:focus, .body__card2:focus, .body__card3:focus, .body__card4:focus {
+	padding-top: 5px;
+}
+.modalImg {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.comment {
+	font-weight: normal;
+}
+
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+	width: 10px;
+	position: absolute;
+}
+::-webkit-scrollbar-track {
+	background: #F1FDD8;
+}
+::-webkit-scrollbar-thumb {
+	background-image: url('../img/app__background.png'); 
+}
+::-webkit-scrollbar-thumb:hover { 
+	background-image: url('../img/app__background2.png');
+}

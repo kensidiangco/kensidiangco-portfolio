@@ -1,0 +1,62 @@
+.contact_header {
+	font-size: 22px;
+	padding: 10px;
+}
+.contact__form {
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	width: 95%;
+	margin-left: 3%;
+}
+input {
+	padding: 10px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	background: #F1FDD8;
+	border: 1px solid #8D5A3D;
+	font-family: 'Sniglet', cursive;
+	font-size: 18px;
+	transition: .3s;
+}
+input:focus {
+	border: 2px solid lightblue;
+	padding: 9px;
+}
+textarea {
+	background: #F1FDD8;
+	padding: 3%;
+	outline: none;
+	border-radius: 10px;
+	border: none;
+	border: 2px solid #8D5A3D;
+	font-family: 'Sniglet', cursive;
+	font-size: 18px;
+	transition: .3s;
+}
+textarea:focus { border: 2px solid lightblue; }
+.contact__button { 
+	font-family: 'Sniglet', cursive;
+	font-size: 16px;
+	margin-top: 9px;
+	outline: none; 
+	padding: 10px;
+	background-image: url('../img/app__background.png');
+	background-attachment: fixed;
+	background-repeat: repeat;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 
+		0 6px 20px 0 rgba(0,0,0,0.19);	
+	border-radius: 10px;
+	border: 1px solid #F1FDD8;
+	color: white;
+	transition: .5s;
+	cursor: pointer;
+}
+.contact__button:active { 
+	background: #E13538;
+	border: 1px solid #F1FDD8;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 
+		0 6px 20px 0 rgba(0,0,0,.8);	
+}
