@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b366e36.chunk.css",
+    "main.js": "/static/js/main.b185c784.chunk.js",
+    "main.js.map": "/static/js/main.b185c784.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6b3488d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6b3488d1.js.map",
+    "static/js/2.eb002387.chunk.js": "/static/js/2.eb002387.chunk.js",
+    "static/js/2.eb002387.chunk.js.map": "/static/js/2.eb002387.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6d949b4ee5ee798c647c7e62a7458dca.js": "/precache-manifest.6d949b4ee5ee798c647c7e62a7458dca.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3b366e36.chunk.css.map": "/static/css/main.3b366e36.chunk.css.map",
+    "static/js/2.eb002387.chunk.js.LICENSE.txt": "/static/js/2.eb002387.chunk.js.LICENSE.txt",
+    "static/media/AddTenant.png": "/static/media/AddTenant.86105d94.png",
+    "static/media/Dashboard.png": "/static/media/Dashboard.fae4e87f.png",
+    "static/media/Details.png": "/static/media/Details.28a43527.png",
+    "static/media/FetchedCountry.png": "/static/media/FetchedCountry.faaa480b.png",
+    "static/media/Home.png": "/static/media/Home.a70a2e0b.png",
+    "static/media/Homepage.png": "/static/media/Homepage.86f24bd1.png",
+    "static/media/Login.png": "/static/media/Login.b6f5ff6d.png",
+    "static/media/Logout.png": "/static/media/Logout.12e315ee.png",
+    "static/media/Pay.png": "/static/media/Pay.25fa70e6.png",
+    "static/media/Register.png": "/static/media/Register.dc3a6f5c.png",
+    "static/media/TenantStatus.png": "/static/media/TenantStatus.067db242.png",
+    "static/media/Update.png": "/static/media/Update.40ac2c32.png",
+    "static/media/gallery.css": "/static/media/app__background2.dc018e0e.png",
+    "static/media/app__header.png": "/static/media/app__header.b3973819.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b3488d1.js",
+    "static/js/2.eb002387.chunk.js",
+    "static/css/main.3b366e36.chunk.css",
+    "static/js/main.b185c784.chunk.js"
+  ]
+}
